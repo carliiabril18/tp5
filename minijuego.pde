@@ -62,6 +62,9 @@ class Juego {
     }
   }
   void JuegoDibujo() {
+    
+    image(Escenario,width/2, height/2, displayWidth, displayHeight);
+    
     for (int e=0; e<cant_stars; e++) {
       stars[e].dibujarEstrella();
     }
