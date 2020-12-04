@@ -13,9 +13,10 @@ void setup() {
   juego= new Juego();
 }
 void draw() {
-  juego.JuegoDibujo();
+  juego.dibujo_estados();
 }
 
 void mousePressed() {
   juego.cambiarEstado();
+  juego.JuegoDibujo();
 }
